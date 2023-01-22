@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { ReactNode } from 'react';
 
 import PexLogo from '../assets/pex-logo.svg';
+import { Navbar } from './Navbar';
 
 interface LayoutProps {
   children: ReactNode;
@@ -22,6 +23,8 @@ export function Layout({ children }: LayoutProps) {
         />
 
         <hr className="bg-blue-50 mb-[2.375rem]" />
+
+        <Navbar />
       </aside>
 
       <>{children}</>
