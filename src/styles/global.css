@@ -1,5 +1,39 @@
 @tailwind base;
 @tailwind components;
+
+@layer components {
+  .input {
+    @apply block
+      w-[214px] h-[41px]
+      p-[10px]
+      text-sm
+    text-gray-900
+      rounded-default
+    bg-gray-50
+    focus:ring-purple-700
+    focus:border-purple-700
+    placeholder:text-blue-100
+      placeholder:tracking-tight;
+  }
+
+  .input-icon {
+    @apply absolute
+    -inset-y-[1px]
+    left-0
+    flex
+    items-center
+    pointer-events-none;
+  }
+
+  .nav-list-item {
+    @apply flex gap-[10px] items-center h-9 cursor-pointer;
+  }
+
+  .nav-list-text {
+    @apply text-base text-blue-50 font-medium transition group-hover:text-blue-800;
+  }
+}
+
 @tailwind utilities;
 
 body {
