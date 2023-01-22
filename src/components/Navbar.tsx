@@ -8,39 +8,29 @@ export function Navbar() {
   return (
     <nav>
       <ul className="flex flex-col gap-5 ml-[34px] ">
-        <li className="flex gap-[10px] items-center h-9 group cursor-pointer">
+        <li className="nav-list-item group">
           <HomeIcon />
-          <p className="text-base text-blue-50 font-medium group-hover:text-blue-800 transition">
-            Dashboard
-          </p>
+          <p className="nav-list-text">Dashboard</p>
         </li>
 
-        <li className="flex gap-[10px] items-center h-9 group cursor-pointer">
+        <li className="nav-list-item group">
           <CartIcon />
-          <p className="text-base text-blue-50 font-medium group-hover:text-blue-800 transition">
-            Vendas
-          </p>
+          <p className="nav-list-text">Vendas</p>
         </li>
 
-        <li className="flex gap-[10px] items-center h-9 group cursor-pointer">
+        <li className="nav-list-item group">
           <RelatoryIcon />
-          <p className="text-base text-blue-50 font-medium group-hover:text-blue-800 transition">
-            Relatórios
-          </p>
+          <p className="nav-list-text">Relatórios</p>
         </li>
 
-        <li className="flex gap-[10px] items-center h-9 group cursor-pointer">
+        <li className="nav-list-item group">
           <SquaresIcon />
-          <p className="text-base text-blue-50 font-medium group-hover:text-blue-800 transition">
-            Lojas Parceiras
-          </p>
+          <p className="nav-list-text">Lojas Parceiras</p>
         </li>
 
-        <li className="flex gap-[10px] items-center h-9 group cursor-pointer">
+        <li className="nav-list-item group">
           <ProfileIcon />
-          <p className="text-base text-blue-50 font-medium group-hover:text-blue-800 transition">
-            Clientes
-          </p>
+          <p className="nav-list-text">Clientes</p>
         </li>
       </ul>
     </nav>

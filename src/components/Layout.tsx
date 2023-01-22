@@ -10,7 +10,7 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   return (
-    <div className="flex w-full h-full">
+    <div className="flex w-sreen h-full">
       <aside className="sticky top-0 flex flex-col min-w-[18.125rem] h-screen bg-white">
         <Image
           className="mb-5 ml-[34px] mt-[27px]"
@@ -27,7 +27,7 @@ export function Layout({ children }: LayoutProps) {
         <Navbar />
       </aside>
 
-      <>{children}</>
+      <div className="flex-1 ml-5 mr-[22px]">{children}</div>
     </div>
   );
 }
