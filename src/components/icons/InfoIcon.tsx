@@ -5,7 +5,14 @@
 export function InfoIcon() {
   return (
     <svg
-      className="w-[24px] h-[24px] fill-blue-50 hover:fill-purple-700 hover:cursor-pointer transition"
+      className="
+        w-[24px]
+        h-[24px]
+        fill-blue-50
+        ease-in-out
+        hover:fill-purple-700
+        hover:cursor-pointer
+        transition"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g>
