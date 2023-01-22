@@ -1,6 +1,7 @@
-import '@/styles/global.css';
 import type { AppProps } from 'next/app';
+import { Layout } from '@/components/Layout';
 import { DM_Sans } from '@next/font/google';
+import '../styles/global.css';
 
 const dmSans = DM_Sans({
   weight: ['400', '500', '700'],
@@ -11,7 +12,9 @@ const dmSans = DM_Sans({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={dmSans.className}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </div>
   );
 }
