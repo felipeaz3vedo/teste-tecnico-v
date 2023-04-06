@@ -17,12 +17,7 @@
   }
 
   .input-icon {
-    @apply absolute
-    -inset-y-[1px]
-    left-0
-    flex
-    items-center
-    pointer-events-none;
+    @apply absolute -inset-y-[1px] left-0 flex items-center pointer-events-none;
   }
 
   .nav-list-item {
@@ -31,6 +26,14 @@
 
   .nav-list-text {
     @apply text-base text-blue-50 font-medium transition group-hover:text-blue-800;
+  }
+
+  .table-head {
+    @apply pl-[31px] pb-[6px] text-sm leading-6 tracking-tight uppercase text-blue-50 font-medium;
+  }
+
+  .table-data {
+    @apply pl-[31px] text-sm leading-6 tracking-tight font-bold text-blue-800 mb-[31px];
   }
 }
 

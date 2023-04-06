@@ -1,16 +1,12 @@
-interface MoonIconProps {
-  fill: 'default' | 'hover';
-}
-
-export function MoonIcon({ fill }: MoonIconProps) {
+export function MoonIcon() {
   return (
     <svg
       className="
       w-[18px]
       h-[18px]
-      fill-blue-50
+    fill-blue-50
       ease-in-out
-      hover:fill-purple-700
+    hover:fill-purple-700
       hover:cursor-pointer
       transition"
       xmlns="http://www.w3.org/2000/svg"

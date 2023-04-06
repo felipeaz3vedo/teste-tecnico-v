@@ -38,16 +38,10 @@ export function Header() {
         <Input type="search" placeholder="Buscar" />
 
         <BellIcon />
-        <MoonIcon fill={'default'} />
+        <MoonIcon />
         <InfoIcon />
 
-        <Image
-          src={UserAvatar}
-          alt="Avatar do usuário"
-          width={41}
-          height={41}
-          quality={100}
-        />
+        <Image src={UserAvatar} alt="Avatar do usuário" width={41} height={41} quality={100} />
       </div>
     </header>
   );

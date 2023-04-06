@@ -6,15 +6,16 @@ module.exports = {
       colors: {
         gray: {
           50: '#F4F7FE',
+          100: '#E9EDF7',
         },
         blue: {
           50: '#a3aed0',
           100: '#8f9bba',
           300: '#707eae',
-          700: '#7a85ec',
           800: '#2b3674',
         },
         purple: {
+          300: '#7a85ec',
           700: '#4318ff',
         },
         orange: {
@@ -29,7 +30,8 @@ module.exports = {
         },
       },
       borderRadius: {
-        default: '1.875rem',
+        default: '30px',
+        '3xl': '20px',
       },
       boxShadow: {
         default: '14px 17px 40px 4px #7090B014',

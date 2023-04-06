@@ -1,5 +1,4 @@
 import { MagnifyGlassIcon } from './icons/MagnifyGlassIcon';
-import { SquaresIcon } from './icons/SquaresIcon';
 import { SquaresIconFilter } from './icons/SquaresIconFilter';
 
 interface InputProps {

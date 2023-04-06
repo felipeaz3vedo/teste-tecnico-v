@@ -1,15 +1,17 @@
+import clsx from 'clsx';
+
 interface DollarIconProps {
-  color: 'black' | 'orange-500' | 'purple-700';
+  color: 'black' | 'purple' | 'blue' | string;
 }
 
 export function DollarIcon({ color }: DollarIconProps) {
   return (
     <svg
-      className={`
-        w-[32px]
-        h-[32px]
-        fill-${color}
-      `}
+      className={clsx('w-[32px] h-[32px]', {
+        'fill-black': color === 'black',
+        'fill-purple-300': color === 'purple',
+        'fill-blue-800': color === 'blue',
+      })}
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
